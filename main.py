@@ -8,3 +8,4 @@ res2 = requests.get(url2).json()
 
 champ_lst = (res['data']['Aatrox']['key'], res['data']['Aatrox']['name'])
 champ_lst2 = (res2['data']['Ahri']['key'], res2['data']['Ahri']['name'])
+
